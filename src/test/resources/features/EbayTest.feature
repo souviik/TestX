@@ -1,6 +1,6 @@
 Feature: eBay Book Search and Add to Cart Test
 
-  @Regression @EbayTest @device_Window_11
+  @Regression @EbayTest @TestAutomationSvk
   Scenario: Search for book, add to cart and verify cart count
     Given User navigates to "https://www.ebay.com"
     When User enters "Book" in the search bar

@@ -1,9 +1,10 @@
-# Test Automation Framework
+# TestX - Test Automation Framework - Souvik Das
 
 A comprehensive test automation framework built with Java, Selenium WebDriver, Cucumber BDD, and TestNG. This framework supports both Web UI automation and REST API testing with robust reporting and parallel execution capabilities.
 
+### LinkedIn: [Souvik Das](https://www.linkedin.com/in/souviik/)
 ## Features
-
+Below are the key features of this framework:
 - Web UI automation using Selenium WebDriver 4
 - REST API testing with REST Assured
 - Behavior-driven development with Cucumber and Gherkin
@@ -45,9 +46,9 @@ The framework implements a factory pattern for WebDriver management:
 
 ### 3. Configuration Management
 Configuration is managed through properties files:
-- `config/config.properties`: Framework settings, timeouts, reporting options
+- `config/config.properties`: Framework settings, timeouts, reporting options (currently confugured to open Extent Reports by default after test run)
 - `config/data.properties`: Test environment data
-- `objects/ebay_locators.properties`: Web UI element locators
+- `objects/ebay_locators.properties`: Web UI element locators properties for dynamic page objects managment
 - `objects/coingecko_api_endpoints.properties`: API endpoint configurations
 
 ## Framework Architecture
@@ -87,7 +88,7 @@ Multiple reporting formats are supported:
 - **Extent Reports**: Rich HTML reports with screenshots
 - **Allure Reports**: Interactive test reporting with trends
 - **Cucumber Reports**: Standard HTML and JSON reports
-- **Custom Logging**: Detailed execution logs
+- **Custom Logging**: Detailed execution logs using Log4j
 
 ### Exception Handling & Recovery
 Robust error handling ensures test stability:

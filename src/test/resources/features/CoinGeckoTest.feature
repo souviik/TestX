@@ -13,7 +13,7 @@ Feature: CoinGecko Bitcoin API Testing
     And User should verify the response contains price change percentage for last 24 hours
     And User should verify homepage URL in the response is not empty
 
-  @Regression @APITest @device_Window_11
+  @Regression @APITest @TestAutomationSvk
   Scenario Outline: Verify market data exists for different currencies
     Given User sends GET request to CoinGecko Bitcoin API endpoint "https://api.coingecko.com/api/v3/coins/bitcoin"
     When User receives the API response
